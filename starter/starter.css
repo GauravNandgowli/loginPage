@@ -13,7 +13,7 @@
 
 body {
   line-height: 1.5;
-  font-family: "Rssoboto";
+  font-family: "Roboto";
 }
 
 p,
@@ -36,9 +36,6 @@ button {
 /* -------------------------css reset ends------------------------------------------------------------- */
 body {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-image: url("../bg.jpg");
   background-size: cover;
   background-position: center;
