@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+/* css reset starts */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Rssoboto";
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+button {
+  font: inherit;
+}
+@media screen and (max-width: 570px) {
+  .main-body {
+    background-image: none;
+  }
+  .login-form {
+    border-radius: 0;
+  }
+}
+
+/* -------------------------css reset ends------------------------------------------------------------- */
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form {
+}
+
+.card-header {
+}
+
+h1 {
+}
+
+.form-input {
+}
+
+input {
+}
+
+.actions {
+}
+
+button {
+}
+
+a {
+}
